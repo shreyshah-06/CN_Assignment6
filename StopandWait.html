@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title >Stop and Wait Protocol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title1">
+        Stop and Wait Protocol
+    </div>
+    <div class="input-container">
+        <label for="total-packets">Total number of Packets:</label>
+        <input type="number" id="total-packets" placeholder="Number of corrupted packets">
+    </div>
+    <div class="input-container">
+        <label for="corrupted-packets" >Number of Corrupted Packets:</label>
+        <input type="text" id="corrupted-packets" placeholder="For Example: 1,4,6,etc.">
+    </div>
+    <div class="btn-div">
+
+        <button id="send-button">Send the Packets</button>
+    </div>
+    <table class="table-layout">
+        <thead>
+            <tr>
+                <th class="table-title">Movement of Packets :</th>
+            </tr>
+        </thead>
+        <tbody id="animation-screen">
+            
+        </tbody>
+    </table>
+</body>
+
+<script src="script.js"></script>
+</html>
